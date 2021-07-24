@@ -184,10 +184,10 @@ function setup() {
 
     //PC moves with the mouse, the highground positioned 80px more than the PC
     
-    //if(mouseY>33){
-      //N1.y=mouseY
-    //}
-    N1.y=mouseY;
+    if(mouseY>33){
+      N1.y=mouseY
+    }
+    //N1.y=mouseY;
     highground.y=N1.y+80
     
     //spawn the bullet
